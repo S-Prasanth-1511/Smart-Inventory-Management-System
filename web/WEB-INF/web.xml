@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+         http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+         version="3.0">
+  
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+    <servlet-name>ViewInventoryServlet</servlet-name>
+    <servlet-class>ViewInventoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewInventoryServlet</servlet-name>
+    <url-pattern>/ViewInventoryServlet</url-pattern>
+  </servlet-mapping>
+      
+  <servlet>
+    <servlet-name>ManageEmployeesServlet</servlet-name>
+    <servlet-class>ManageEmployeesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManageEmployeesServlet</servlet-name>
+    <url-pattern>/ManageEmployeesServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ViewReportsServlet</servlet-name>
+    <servlet-class>ViewReportsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewReportsServlet</servlet-name>
+    <url-pattern>/ViewReportsServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>IssueItemsServlet</servlet-name>
+    <servlet-class>IssueItemsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IssueItemsServlet</servlet-name>
+    <url-pattern>/IssueItemsServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+        <servlet-name>ReorderItemsServlet</servlet-name>
+        <servlet-class>ReorderItemsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReorderItemsServlet</servlet-name>
+        <url-pattern>/ReorderItemsServlet</url-pattern>
+    </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ViewInventoryServlet1</servlet-name>
+    <servlet-class>ViewInventoryServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewInventoryServlet1</servlet-name>
+    <url-pattern>/ViewInventoryServlet1</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ViewReorderServlet</servlet-name>
+    <servlet-class>ViewReorderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewReorderServlet</servlet-name>
+    <url-pattern>/ViewReorderServlet</url-pattern>
+  </servlet-mapping>
+   
+    <servlet>
+    <servlet-name>ViewIssuedItemsServlet</servlet-name>
+    <servlet-class>ViewIssuedItemsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewIssuedItemsServlet</servlet-name>
+    <url-pattern>/ViewIssuedItemsServlet</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>EarningsAnalysisServlet</servlet-name>
+    <servlet-class>EarningsAnalysisServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EarningsAnalysisServlet</servlet-name>
+    <url-pattern>/EarningsAnalysisServlet</url-pattern>
+  </servlet-mapping>
+    
+      <servlet>
+    <servlet-name>DownloadReportServlet</servlet-name>
+    <servlet-class>DownloadReportServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadReportServlet</servlet-name>
+    <url-pattern>/DownloadReportServlet</url-pattern>
+  </servlet-mapping>
+  
+      
+      <servlet>
+    <servlet-name>ViewSuppliersServlet</servlet-name>
+    <servlet-class>ViewSuppliersServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewSuppliersServlet</servlet-name>
+    <url-pattern>/ViewSuppliersServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+</web-app>

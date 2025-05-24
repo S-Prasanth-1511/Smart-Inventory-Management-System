@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glassfish-web-app PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Servlet 3.0//EN" "http://glassfish.org/dtds/glassfish-web-app_3_0-1.dtd">
+<!--
+    Copyright (c) 1997, 2018 Oracle and/or its affiliates. All rights reserved.
+    
+    This program and the accompanying materials are made available under the
+    terms of the Eclipse Public License v. 2.0, which is available at
+    http://www.eclipse.org/legal/epl-2.0.
+
+    This Source Code may also be made available under the following Secondary
+    Licenses when the conditions for such availability set forth in the
+    Eclipse Public License v. 2.0 are satisfied: GNU General Public License,
+    version 2 with the GNU Classpath Exception, which is available at
+    https://www.gnu.org/software/classpath/license.html.
+
+    SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
+-->
+<glassfish-web-app error-url="">
+  <class-loader delegate="true"/>
+  <jsp-config>
+    <property name="keepgenerated" value="true">
+      <description>Keep a copy of the generated servlet class' java code.</description>
+    </property>
+  </jsp-config>
+  <context-root>/WT_Project</context-root>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+  
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+    <servlet-name>ViewInventoryServlet</servlet-name>
+    <servlet-class>ViewInventoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewInventoryServlet</servlet-name>
+    <url-pattern>/ViewInventoryServlet</url-pattern>
+  </servlet-mapping>
+      
+  <servlet>
+    <servlet-name>ManageEmployeesServlet</servlet-name>
+    <servlet-class>ManageEmployeesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ManageEmployeesServlet</servlet-name>
+    <url-pattern>/ManageEmployeesServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ViewReportsServlet</servlet-name>
+    <servlet-class>ViewReportsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewReportsServlet</servlet-name>
+    <url-pattern>/ViewReportsServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>IssueItemsServlet</servlet-name>
+    <servlet-class>IssueItemsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IssueItemsServlet</servlet-name>
+    <url-pattern>/IssueItemsServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ReorderItemsServlet</servlet-name>
+    <servlet-class>ReorderItemsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReorderItemsServlet</servlet-name>
+    <url-pattern>/ReorderItemsServlet</url-pattern>
+  </servlet-mapping>
+      
+  <servlet>
+    <servlet-name>ViewInventoryServlet1</servlet-name>
+    <servlet-class>ViewInventoryServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewInventoryServlet1</servlet-name>
+    <url-pattern>/ViewInventoryServlet1</url-pattern>
+  </servlet-mapping>
+
+</glassfish-web-app>
+
